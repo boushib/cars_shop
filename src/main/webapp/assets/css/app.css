@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+body {
+  padding-top: 60px;
+}
+
+.container {
+  padding: 0 120px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 40px 0;
+}
+
+nav {
+  background-color: #2196f3;
+  height: 60px;
+  box-shadow: 0 0 8px rgba(33, 150, 243, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav .nav-brand a,
+nav .main-menu li a {
+  color: inherit;
+}
+
+nav .main-menu {
+  display: flex;
+}
+
+nav .main-menu li {
+  margin: 20px;
+  color: rgba(255, 255, 255, .8);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #8BC34A;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  box-shadow: 0 1px 1px #ddd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] {
+  padding: 13px 20px;
+}
+
+textarea {
+  padding: 20px;
+  resize: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ccc;
+}
+
+.form-control {
+  margin-bottom: 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+main {
+  min-height: calc(100vh - 120px);
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+footer .container {
+  text-align: center;
+}
+
+.form-box {
+  padding: 32px 40px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  width: 500px;
+  box-shadow: 0 0 120px rgba(0, 0, 0, 0.16);
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tbody tr {
+  border: 1px solid #d8dcdf;
+  border-top-color: transparent;
+}
+
+table tbody tr:first-child {
+  border-top-color: #d8dcdf;
+  border-radius: 4px 4px 0 0;
+}
+
+table tbody tr:last-child {
+  border-radius: 0 0 4px 4px;
+}
+
+table tbody tr {
+  background-color: #fff;
+  position: relative;
+  transform: scale(1);
+}
+
+table tbody tr .actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  padding: 10px;
+  background-color: #fff;
+  transition: opacity .4s ease-in-out;
+}
+
+.actions button {
+  border: none;
+  outline: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.actions .delete {
+  color: #EF5350;
+}
+
+.actions .edit {
+  color: #BDBDBD;
+}
+
+.actions .edit,
+.actions .delete {
+  cursor: pointer;
+}
+
+table tbody tr .actions {
+  opacity: 0;
+}
+
+table tbody tr:hover .actions {
+  opacity: 1;
+}
+
+table thead th,
+table tbody td {
+  padding: 16px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* all cars */
+.all-cars {
+  background-color: #fafafa;
+}
+.add {
+  color: #8BC34A;
+  font-size: 28px;
+  margin: 0 8px;
+  cursor: pointer;
+}
