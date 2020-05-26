@@ -17,7 +17,7 @@
           <input type="number" name="year" id="year" placeholder="Enter car year">
         </div>
         <div class="form-control">
-          <label for="price">Price</label>
+          <label for="price">Price in USD</label>
           <input type="number" name="price" id="price" step="100" placeholder="Enter car price">
         </div>
         <div class="form-control">
