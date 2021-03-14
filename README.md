@@ -1,2 +1,2 @@
-# Cars Shop
-Cars Shop project, build with love using Java JEE
+# JEE Vehicles
+A simple vehicles store project, built with :heart: using Java & JEE
